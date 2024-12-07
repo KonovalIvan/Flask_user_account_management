@@ -1,0 +1,66 @@
+blockquote {
+    margin: 0;
+    align-items: flex-start;
+}
+
+/* body
+------------------------------------------------------- */
+.manager_panel {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.manager_panel__group {
+    border-radius: 10px;
+    width: 30%;
+    background-color: #F3F3F3;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.group__user_info {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.group__field {
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 18px;
+    display:inline-block;
+    border-radius: 0;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.group__check_group {
+    margin-top: 0;
+}
+
+/* btn
+------------------------------------------------------- */
+.btn__group {
+    margin-top: auto;
+}
+
+.btn__reset_password {
+    background-color: blue;
+}
+
+.btn__save {
+    margin-top: auto;
+    background-color: green;
+}
+
+.btn__show_all_logs {
+    background-color: #483838;
+}
